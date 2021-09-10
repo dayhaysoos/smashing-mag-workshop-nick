@@ -38,6 +38,4 @@ You'll be prompted to give a unique name to your project, use your name in the p
 
 For example, I'd do `nick-smashing-mag-workshop`
 
-(This should give them the prismic repo with Custom Types already set up, need to figure out how to set them up with docs properly)
-
 Link to slides: https://slides.com/nickdejesus/deck-f1459b
