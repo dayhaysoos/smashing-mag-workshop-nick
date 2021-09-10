@@ -36,7 +36,7 @@ export const htmlSerializer = function (type, element, content, children, key) {
   }
 };
 
-export const apiEndpoint = 'https://smashing-mag-workshop.prismic.io/api/v2';
+export const apiEndpoint = 'https://your-repo-name.prismic.io/api/v2';
 
 // -- Access Token if the repository is not public
 // Generate a token in your dashboard and configure it here if your repository is private
