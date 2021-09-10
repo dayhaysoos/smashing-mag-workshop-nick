@@ -36,7 +36,7 @@ Now you need to clone the Prismic Repo (not to be confused with a GitHub Repo)
 
 To clone the repo, run the following command:
 
-`npx prismic-cli theme --theme-url https://github.com/dayhaysoos/smashing-mag-workshop --conf prismic-config.js --folder ./ --force`
+`npx prismic-cli theme --theme-url https://github.com/dayhaysoos/prismic-workshop-theme --conf prismic-config.js --folder ./ --force`
 
 You'll be prompted to give a unique name to your project, use your name in the prefix: `your-name-smashing-mag-workshop`
 
