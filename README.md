@@ -70,7 +70,12 @@ Replace `your-repo-name` with your Prismic Repo name. For example, mine would be
 
 ### Step 5
 
-Commit the new code that has been added and push to your GitHub repo. Netlify should build successfully and you'll be able to see the workshop UI.
+Commit the new code that has been added and push to your GitHub repo.
+
+`git add .`
+`git commit -m "Starting point"`
+
+Netlify should build successfully and you'll be able to see the workshop UI.
 
 From here, I will be giving a presentation from some slides.
 
