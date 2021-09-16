@@ -47,8 +47,8 @@ function Product({ product }) {
            * Step 14
            * Uncomment both <RichText /> components below
            */}
-          {/* <RichText render={brand} />
-          <RichText render={title} /> */}
+          <RichText render={brand} />
+          <RichText render={title} />
           <Box as='p' sx={{ fontSize: '24px', marginBottom: '24px' }}>
             {formatCurrencyString({ value: price, currency })}
           </Box>
@@ -63,7 +63,7 @@ function Product({ product }) {
              * Step 15
              * Uncomment the RichText component below
              */}
-            {/* <RichText render={callout} htmlSerializer={htmlSerializer} /> */}
+            <RichText render={callout} htmlSerializer={htmlSerializer} />
           </Box>
         </Flex>
       </Flex>
@@ -83,21 +83,21 @@ function Product({ product }) {
            * Step 16
            * Uncomment the <RichText /> component below
            */}
-          {/* <RichText render={description} /> */}
+          <RichText render={description} />
         </Box>
         <Box sx={{ width: '50%' }}>
           {/**
            * Step 17
            * Uncomment the <RichText /> component below
            */}
-          {/* <RichText render={features} htmlSerializer={htmlSerializer} /> */}
+          <RichText render={features} htmlSerializer={htmlSerializer} />
         </Box>
       </Flex>
       {/**
        * Step 18
        * Uncomment the <RelatedProducts /> component below
        */}
-      {/* <RelatedProducts products={related_products} /> */}
+      <RelatedProducts products={related_products} />
     </Container>
   );
 }

@@ -6,7 +6,7 @@ import { htmlSerializer } from '../prismic-config';
 
 function ProductCatalog({ products }) {
   return (
-    <Grid columns={[1, 2, 3]}>
+    <Grid columns={[1, 2, 4]}>
       {products.map((product) => {
         const { uid, data } = product;
         const { image_url, title } = data.linked_product;
